@@ -46,6 +46,7 @@ Jammer tasarımında, parazit sinyalinin gücünü ve etkinliğini artırmak iç
 ---
 
 ## Bağlantı şeması
+<img src="">
 
 
 
