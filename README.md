@@ -46,7 +46,7 @@ Jammer tasarımında, parazit sinyalinin gücünü ve etkinliğini artırmak iç
 ---
 
 ## Bağlantı şeması
-<img src="galeri/jammer fritzing.jpg">
+<img src="galeri/jammerfritzing.jpg">
 
 
 
