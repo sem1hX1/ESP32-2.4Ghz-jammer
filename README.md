@@ -90,5 +90,5 @@ Jammer tasarımında, parazit sinyalinin gücünü ve etkinliğini artırmak iç
 
 
 
-<h4 align="center">Lütfen bu aracın kullanımının tamamen kendi sorumluluğunuzda olduğunu unutmayın. Araç yalnızca eğitim amaçlıdır ve hiçbir yasa dışı veya etik olmayan faaliyet için kullanılmamalıdır. Jamming yapmak yasa dışıdır ve başınızı büyük belaya sokabilir!</h4>
+<h4 align="center">!!Lütfen jammer kullanımının tamamen kendi sorumluluğunuzda olduğunu unutmayın. jammer yalnızca eğitim amaçlıdır ve hiçbir yasa dışı veya etik olmayan faaliyet için kullanılmamalıdır. sinyal kesmek yasa dışıdır ve başınızı büyük belaya sokabilir!</h4>
 <h4 align="center">Eylemlerinizden sorumlu değilim!</h4>
