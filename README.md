@@ -41,7 +41,7 @@ Jammer tasarımında, parazit sinyalinin gücünü ve etkinliğini artırmak iç
 
 ## 3.Anten
 "Bazı ESP32 modellerinde harici anten takılabilir. Yani, nRF24L01+PA+LNA antenlerinden birini, ESP32 üzerindeki dahili PCB antene takabilirsiniz. Bu da ekstra parazit sinyal üretimine ve mesafe artışına katkı sağlayacaktır
-
+<img src="">
 
 
 
