@@ -8,7 +8,7 @@
 
 
 ## ESP32-BlueJammer
-Esp32 2.4Ghz Jammer parazit sinyal üreterek kablosuz cihazların sinyallerinin önüne geçer ve bağlantıyı keser 2.4Ghz bandındaki bütün kablosuz cihazlar ve ağlar bu parazit sinyalden etkilenir örneğin (bluetooth hapörlörün sesinin kesilmesi , wifi ağının bağlantısının kesilmesi , rc oyuncakların kumandasının devre dışı kalması ,Iot cihazların internete bağlanmaması,) Esp32 2.4Ghz jammer ın mesafesi donanımınıza göre değişiklik göstermektedir.
+Esp32 2.4Ghz Jammer parazit sinyal üreterek kablosuz cihazların sinyallerinin önüne geçer ve bağlantıyı keser 2.4Ghz bandındaki bütün kablosuz cihazlar ve ağlar bu parazit sinyalden etkilenir örneğin (bluetooth hapörlörün sesinin kesilmesi , wifi ağının bağlantısının kesilmesi , rc oyuncakların kumandasının devre dışı kalması ,Iot cihazların internete bağlanmaması) Esp32 2.4Ghz jammer ın mesafesi donanımınıza göre değişiklik göstermektedir.
 
 
 
@@ -23,6 +23,7 @@ Esp32 2.4Ghz Jammer parazit sinyal üreterek kablosuz cihazların sinyallerinin 
 - **Toggle Switch - Açma/kapama için.**
 - **TP4056 18650 Lityum Pil Şarj Modülü**
 - **1S 18650 Lityum Pil Yatağı**
+- **18650 Lityum Pil**
 - **1S 18650 Pil Kapasite Göstergesi**
 - **2.4GHz Anten (2 adet)** 
 - **5x10 cm Delikli Pertinaks (2 adet)** 
@@ -35,7 +36,7 @@ Esp32 2.4Ghz Jammer parazit sinyal üreterek kablosuz cihazların sinyallerinin 
 ## Antenler
 nRF24L01+PA+LNA modüllerinin mesafe performansı için harici antenli versiyonlarının kullanılması şarttır. Antensiz (PCB antenli) modüllerin menzili, engelsiz ortamda dahi 10 metreyi geçmekte zorlanır ve bu modüller jammer gibi uygulamalar için kesinlikle uygun değildir.
 
-Jammer tasarımında, parazit sinyalinin gücünü ve etkinliğini artırmak için çift anten kullanımı yaygın bir yöntemdir. İki anten kullanmak, tek antene kıyasla daha yüksek seviyede ve daha geniş bir alana parazit yayılmasını sağlar. Ayrıca, doğru uyumlu ve uygun frekansta çalışacak daha büyük bir anten kullanmak, menzili ve sinyal gücünü doğrudan artıracaktır.
+Jammer tasarımında, parazit sinyalinin gücünü ve etkinliğini artırmak için çift anten kullanımı yaygın bir yöntemdir. İki anten kullanmak, tek antene kıyasla daha yüksek seviyede ve daha geniş bir alana parazit yayılmasını sağlar. Ayrıca, doğru, uyumlu ve uygun frekansta çalışacak daha büyük bir anten kullanmak, menzili ve sinyal gücünü doğrudan artıracaktır.
 
 ---
 
