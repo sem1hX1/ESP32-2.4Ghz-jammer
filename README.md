@@ -43,16 +43,14 @@ Jammer tasarımında, parazit sinyalinin gücünü ve etkinliğini artırmak iç
 "Bazı ESP32 modellerinde harici anten takılabilir. Yani, nRF24L01+PA+LNA antenlerinden birini, ESP32 üzerindeki dahili PCB antene takabilirsiniz. Bu da ekstra parazit sinyal üretimine ve mesafe artışına katkı sağlayacaktır
 <img src="galeri/esp32antenli.jpeg">
 
+---
+
+## Bağlantı şeması
 
 
 
 
 
-
-
-## ESP32-nRF24L01+ pinout + battery mod
-Here are both pinouts for HSPI and VSPI. You need both nRF24L01 modules connected in order to achieve full capability of the device.                
-[nRF24L01+ pinout](https://dwdwpld.pages.dev/nRF24L01pinout.png)
 ### HSPI
 | 1st nRF24L01 module Pin | HSPI Pin (ESP32) | 10uf capacitor |
 |---------------|------------------|--------------------|
