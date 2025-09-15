@@ -53,10 +53,10 @@ Jammer tasarımında, parazit sinyalinin gücünü ve etkinliğini artırmak iç
 
 
 ### HSPI
-| 1st nRF24L01 module Pin | HSPI Pin (ESP32) | 10uf capacitor |
+|1. nRF24L01 modül Pimi | HSPI Pimi (ESP32) | 10uf kapasitör |
 |---------------|------------------|--------------------|
-| VCC           | 3.3V             | (+) capacitor |
-| GND           | GND              | (-) capacitor |
+| VCC           | 3.3V             | (+) kapasitör |
+| GND           | GND              | (-) kapasitör |
 | CE            | GPIO 16          |
 | CSN           | GPIO 15          |
 | SCK           | GPIO 14          |
@@ -65,10 +65,10 @@ Jammer tasarımında, parazit sinyalinin gücünü ve etkinliğini artırmak iç
 | IRQ           |                  |
 
 ### VSPI 
-| 2nd nRF24L01 module Pin | VSPI Pin (ESP32) | 10uf capacitor |
+| 2. nRF24L01 modül Pini | HSPI Pini (ESP32) | 10uf kapasitör |
 |---------------|------------------|--------------------|
-| VCC           | 3.3V             | (+) capacitor |
-| GND           | GND              | (-) capacitor |
+| VCC           | 3.3V             | (+) kapasitör |
+| GND           | GND              | (-) kapasitör |
 | CE            | GPIO 22          |
 | CSN           | GPIO 21          |
 | SCK           | GPIO 18          |
@@ -78,7 +78,7 @@ Jammer tasarımında, parazit sinyalinin gücünü ve etkinliğini artırmak iç
 
 
 
-### OLED Display I2C (additional - make sure to use the correct firmware!)
+### Oled Ekran pin
 | 0.96" OLED Display I2C | ESP32 |
 |------------------------|-------|
 |          GND           |  GND  |
@@ -90,5 +90,5 @@ Jammer tasarımında, parazit sinyalinin gücünü ve etkinliğini artırmak iç
 
 
 
-<h4 align="center">Please note that the use of this tool is entirely at your own risk. It is intended strictly for educational purposes and should not be used for any illegal or unethical activities. Jamming is illegal and can get you in big trouble!</h4>
-<h4 align="center">I'm not responsible for your actions! </h4>
+<h4 align="center">Lütfen bu aracın kullanımının tamamen kendi sorumluluğunuzda olduğunu unutmayın. Araç yalnızca eğitim amaçlıdır ve hiçbir yasa dışı veya etik olmayan faaliyet için kullanılmamalıdır. Jamming yapmak yasa dışıdır ve başınızı büyük belaya sokabilir!</h4>
+<h4 align="center">Eylemlerinizden sorumlu değilim!</h4>
