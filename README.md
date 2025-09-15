@@ -1,230 +1,47 @@
-<h1 align="center">ESP32-BlueJammer - by @emensta</h1>
+<h1 align="center">Esp32 2.4Ghz jammer</h1>
 <div align="center">
-  <img src="https://dwdwpld.pages.dev/ESP32-BlueJammerBy@emensta.jpg" alt="ESP32-BlueJammer">
-  <h3 align="center">Jamming is ILLEGAL! Educational purposes only!</h3>
-</div>
-
-<div align="center">
-<a href="https://github.com/EmenstaNougat/ESP32-BlueJammer" title="Go to GitHub repo">
-  <img src="https://img.shields.io/static/v1?label=EmenstaNougat&message=ESP32-BlueJammer&color=purple&logo=github" alt="EmenstaNougat - ESP32-BlueJammer">
-</a>
-<a href="https://github.com/EmenstaNougat/ESP32-BlueJammer">
-  <img src="https://img.shields.io/github/stars/EmenstaNougat/ESP32-BlueJammer?style=social" alt="stars - ESP32-BlueJammer">
-</a>
-<a href="https://github.com/EmenstaNougat/ESP32-BlueJammer">
-  <img src="https://img.shields.io/github/forks/EmenstaNougat/ESP32-BlueJammer?style=social" alt="forks - ESP32-BlueJammer">
-</a>
+  <img src="galeri/jammer7.jpeg" alt="ESP32-BlueJammer">
+  <h3 align="center">!!Jammer kulanımı YASADIŞIDIR!Sadece eğitim amaçlıdır!</h3>
 </div>
 
 
-<h4 align="center">
-  <a href="https://github.com/EmenstaNougat/ESP32-BlueJammer#hardware---make-your-own-esp32-bluejammer">Make your own</a>
-    <span> | </span>
-  <a href="https://github.com/EmenstaNougat/ESP32-BlueJammer#esp32-nrf24l01-pinout--battery-mod">Schematics</a>
-    <span> | </span>
-  <a href="https://github.com/EmenstaNougat/ESP32-BlueJammer?tab=readme-ov-file#pcb">Hardware layout</a>
-    <span> | </span>
-  <a href="https://github.com/EmenstaNougat/ESP32-BlueJammer?tab=readme-ov-file#pcbs-with-esp32-and-rf-module-capability">PCB's</a>
-    <span> | </span>
-  <a href="https://github.com/EmenstaNougat/ESP32-BlueJammer#video-tutorials-and-demonstrations">Demos</a>
-    <span> | </span>
-  <a href="https://github.com/EmenstaNougat/ESP32-BlueJammer#operation-channels">Channels</a>
-    <span> | </span>
-  <a href="https://github.com/EmenstaNougat/ESP32-BlueJammer?tab=readme-ov-file#flashing-the-firmware">Flashing</a>
-    <span> | </span>
-  <a href="https://github.com/EmenstaNougat/ESP32-BlueJammer#3d-printed-case">3D case</a>
-    <span> | </span>
-  <a href="https://github.com/EmenstaNougat/ESP32-BlueJammer?tab=readme-ov-file#about-the-esp32-bluejammer-and-my-source-code">About</a>
-    <span> | </span>
-  <a href="https://github.com/EmenstaNougat/ESP32-BlueJammer?tab=readme-ov-file#support-me">Support me</a>
-    <span> | </span>
-  <a href="https://emensta.pages.dev">Website</a>
-</h4>
 
 
 ## ESP32-BlueJammer
-The ESP32-BlueJammer (Bluetooth jammer, BLE jammer, WiFi jammer, RC jammer) disrupts various devices using an ESP32 and nRF24 modules, causing plenty of noise and sending unnecessary packets (DoS).              
-                                                                    
-It interrupts:  
-**The whole 2.4GHz broadband!** Everything that works on 2.4GHz is being interfered, like:                                                       
-audio in speakers being transmitted over bluetooth, microphones on 2.4GHz, smartphone connections, WiFi, RC Drones (etc.), IoT devices, smart gadgets, wireless keyboard & mouse, just anything on 2.4GHz!
-
-Ideal for controlled disruption and security testing. Based on 2.4GHz communication.
-
-It has a big range (over 30Meters+ - may vary on your antenna and hardware setup!) on newest Bluetooth versions with casual 2.4GHz antennas, you can easily increase this as well by taking some simple "bigger" router antennas.
-An amplifier (2.4GHz) may be a good option too!
-
-Remember that jamming is illegal and should not be used with malicious intent!
+Esp32 2.4Ghz Jammer parazit sinyal üreterek kablosuz cihazların sinyallerinin önüne geçer ve bağlantıyı keser 2.4Ghz bandındaki bütün kablosuz cihazlar ve ağlar bu parazit sinyalden etkilenir örneğin (bluetooth hapörlörün sesinin kesilmesi , wifi ağının bağlantısının kesilmesi , rc oyuncakların kumandasının devre dışı kalması ,Iot cihazların internete bağlanmaması,) Esp32 2.4Ghz jammer ın mesafesi donanımınıza göre değişiklik göstermektedir.
 
 
 
-## PCB's with ESP32 and RF-module capability
-**ESP32-RF DIY-PCB:**
-This PCB can fit an ESP32-wroom-32U/E DevKitC and 2 nRF-modules, along with an 0.96" I2C OLED, LEDs and switches.  
-***Remember: It is not intended for illegal use!***  
-For this one, all you need is listed below:  
 
-**Required:**  
-- **[ESP32 Dev Module](https://s.click.aliexpress.com/e/_onYIVKr)** (**Recommended: ESP32-32U CP2102**, any ESP32 should work as long as it has the needed pins, 38P required!)  
-- **[nRF24L01+PA+LNA](https://s.click.aliexpress.com/e/_oma5UQx)** (2x)  
-- **[10-100uF Capacitor](https://s.click.aliexpress.com/e/_oFvFeYX)** (2x) (any voltage above 5V)  
-- **[0.96" OLED Display I2C](https://s.click.aliexpress.com/e/_oCdkjPX)**
-- **[Slide Switch](https://s.click.aliexpress.com/e/_oCWSw1m)** (2x)
-- **[LEDs: 3mm LED](https://s.click.aliexpress.com/e/_ooxufHV)**  
-- **[Resistor kit](https://s.click.aliexpress.com/e/_oCoJ7LO)**  
-- R1 = 1kOhm  
-- R2, R3, R5, R7 = 47kOhm  
-- R4, R6 = 100kOhm  
 
-**Additional:**  
-- **[TP4056 Charging Module (Micro-USB/Type-C)](https://s.click.aliexpress.com/e/_oCqORHE)**  
-- **[JST PH 2.0 Connector](https://s.click.aliexpress.com/e/_ooSOhDd)**  
-- **[3.7V Li-Ion Battery](https://s.click.aliexpress.com/e/_on04mQ7)**  
-- **[3rd Antenna: **IPEX to SMA-F pigtail](https://s.click.aliexpress.com/e/_oFDpn1V)**  
-![image](https://github.com/user-attachments/assets/601b72e8-587a-43e0-8d2a-c99cbdce4a21)  
-[Shop](https://www.elecrow.com/esp32-rf-diy-pcb.html)
+**Malzemeler:**  
+- **ESP32S WiFi + Bluetooth Dual-Mode Geliştirme Kartı (30 Pin) - Gerekli pinler olduğu sürece diğer ESP32 modelleri de kullanılabilir.**
+- **nRF24L01+PA+LNA (Antenli) - Mesafe performansı için antenli modül tercih edilmelidir (2 adet).**
+- **10μF Kondansatör - ESP32'den 5V çıkış kullanılacağı için 5V üzeri (10V veya 16V) kondansatör uygundur (2 adet).**
+- **0.96 inç I2C OLED Ekran (SSD1306)**
+- **IC162 Mini Mikroswitch (3 Pin) - Jammer mod geçişi için.**
+- **Toggle Switch - Açma/kapama için.**
+- **TP4056 18650 Lityum Pil Şarj Modülü**
+- **1S 18650 Lityum Pil Yatağı**
+- **1S 18650 Pil Kapasite Göstergesi**
+- **2.4GHz Anten (2 adet)** 
+- **5x10 cm Delikli Pertinaks (2 adet)** 
+- **Lehimleme Ekipmanları - Lehim makinesi, lehim teli, lehim pastası, tek damarlı kablo.**
+- **8 Pin nRF24L01 Wireless Modül Adaptörü - İsteğe bağlı kullanılabilir. Modüllerin yanlış bağlantı veya voltajdan zarar görmemesi için adaptör kullanımı önerilir.**
+
 
 ---
 
-**PRE-SOLDERED:**  "The Blue ESP"  
-This is an ESP32 with RF-module breakouts (nRF24/CC1101 etc.) for experimenting.  
-***Remember: It is not intended for illegal use, neither for my project!***  
+## Antenler
+nRF24L01+PA+LNA modüllerinin mesafe performansı için harici antenli versiyonlarının kullanılması şarttır. Antensiz (PCB antenli) modüllerin menzili, engelsiz ortamda dahi 10 metreyi geçmekte zorlanır ve bu modüller jammer gibi uygulamalar için kesinlikle uygun değildir.
 
-**Required:**  
-- **[nRF24L01+PA+LNA](https://s.click.aliexpress.com/e/_oma5UQx)** (2x)  
-Why do you need to get the nRF24's? -> the pinout can be used to connect either nRF24 or CC1101 modules for further experiments with an ESP32 chip.
-![TheBlueESP](https://dwdwpld.pages.dev/theblueespwavychat.png)
-[Shop](https://datechlabs.com/products/the-blue-esp-pre-order)
-
-
-
-## Video tutorials and demonstrations
-[Full DIY assembling video tutorial](https://www.tiktok.com/@emensta/video/7389783018002550049)
-
-[Full DIY assembling video tutorial (if the TikTok is not available for you)](https://www.mediafire.com/file/mgb3wicdifkq1ce/ESP32-BlueJammerByEmensta-DIYTutorial.mp4/file)
+Jammer tasarımında, parazit sinyalinin gücünü ve etkinliğini artırmak için çift anten kullanımı yaygın bir yöntemdir. İki anten kullanmak, tek antene kıyasla daha yüksek seviyede ve daha geniş bir alana parazit yayılmasını sağlar. Ayrıca, doğru uyumlu ve uygun frekansta çalışacak daha büyük bir anten kullanmak, menzili ve sinyal gücünü doğrudan artıracaktır.
 
 ---
 
-[Demonstration](https://vm.tiktok.com/ZGec5Mqg7/)
+## 3.Anten
+"Bazı ESP32 modellerinde harici anten takılabilir. Yani, nRF24L01+PA+LNA antenlerinden birini, ESP32 üzerindeki dahili PCB antene takabilirsiniz. Bu da ekstra parazit sinyal üretimine ve mesafe artışına katkı sağlayacaktır
 
-[Demonstration (if the TikTok is not available for you)](https://www.mediafire.com/file/xgru01ihbw26mfu/ESP32-BlueJammerByEmensta-Demonstration.mp4/file)
-
----
-
-[Flashing process](https://www.tiktok.com/@emensta/video/7413509704401292577)
-
-[Flashing process (if the TikTok is not available for you)](https://www.mediafire.com/file/2aj4hmf9zt7w6sw/ESP32-BlueJammerByEmensta-FlashingProcess.mp4/file)
-
----
-
-ESP32-BlueJammer tutorial by @ElMackflay  
-[![ESP32-BlueJammer tutorial by @ElMackflay](https://img.youtube.com/vi/1kjkWU25_qo/0.jpg)](https://www.youtube.com/watch?v=1kjkWU25_qo)  
----
-
-
-## Operation Channels
-- **Bluetooth** = 79CH  
-  Frequency Range: 2.402 GHz to 2.480 GHz  
-  Channel Width: 1 MHz
-
-- **BLE** = 40CH  
-  Frequency Range: 2.400 GHz to 2.4835 GHz  
-  Channel Width: 2 MHz
-
-- **WiFi** = 14CH  
-  Frequency Range: 2.400 GHz to 2.4835 GHz  
-  Channel Width: Typically 20 MHz, but can be 22 MHz or 40 MHz in some cases
-
-- **RC drones, etc.** = 1-125CH  
-  Frequency Range: 2.400 GHz to 2.525 GHz  
-  Channel Width: 1 MHz
-
-
-
-## How to use?
-To disrupt various channels on the 2.4GHz band, do the following to enable your ESP32-BlueJammer:
-- Every mode starts right away after powering on the device! There is no additional button to start the attack!  
-- It simply jams right away once powered!
-
-### Combo-Channel-Select_BT-BLE-WiFi-RC firmware:
-- use the "Boot" button on the ESP32 to switch between the channel modes on the Combo-Firmware!
-- the OLED will display your current operation channel
-- the status LED lets you know about the current state you're in:  
-1 blink = BT  
-2 blinks = BLE  
-3 blinks = WiFi  
-4 blinks = RC  
-- the serial output of your ESP32-BlueJammer will output the following lines when switching mode:  
-State 1: Bluetooth  
-State 2: Bluetooth Low Energy  
-State 3: WiFi  
-State 4: RC  
-
-### all other firmware:
-- the firmware you choose indicates the operation channel by its name, this means:
-
-Bluetooth_80_CH - jams classic Bluetooth  
-Frequency Range: 2.402 GHz to 2.480 GHz  
-
-BluetoothLowEnergy_40_CH - jams Bluetooth Low Energy  
-Frequency Range: 2.400 GHz to 2.4835 GHz  
-
-Bluetooth-BluetoothLowEnergy_40-80_CH - jams classic Bluetooth & Bluetooth Low Energy  
-Frequency Range: 2.402 GHz to 2.480 GHz & 2.400 GHz to 2.4835 GHz  
-
-Bluetooth-WiFi_14-80_CH - jams classic Bluetooth & WiFi  
-Frequency Range: 2.402 GHz to 2.480 GHz & 2.400 GHz to 2.4835 GHz  
-
-WiFi_14_CH - jams WiFi  
-Frequency Range: 2.400 GHz to 2.4835 GHz  
-
-2.4GHzRemoteControl(Drones etc.)_1-125_CH - jams RC (Drones etc.)  
-  Frequency Range: 2.400 GHz to 2.525 GHz  
-
-
-
-## Hardware - Make your own ESP32-BlueJammer
-(Aliexpress affiliate links to support me-linked to the item names)
-### Required:
-
-- **[ESP32 Dev Module](https://s.click.aliexpress.com/e/_onYIVKr)** (**Recommended: ESP32-32U CP2102**, any ESP32 should work as long as it has the needed pins)
-- **[nRF24L01+PA+LNA](https://s.click.aliexpress.com/e/_oma5UQx)** (2x)
-- **[10-100uF Capacitor](https://s.click.aliexpress.com/e/_oFvFeYX)** (2x) (any voltage above 5V)
-- **[Prototype PCB](https://s.click.aliexpress.com/e/_oBtd18j)** (at least 7x9 cm, but you will need to cut it down to fit the 3D-printed case, which fits a size of 7x5,5cm!)
-
-### Additional:
-
-- **[0.96" OLED Display I2C](https://s.click.aliexpress.com/e/_oCdkjPX)**
-- [3rd Antenna: **IPEX to SMA-F pigtail**](https://s.click.aliexpress.com/e/_oFDpn1V)
-- [Status LED: **3mm LED**](https://s.click.aliexpress.com/e/_ooxufHV)
-- **[4.7k Ohm Resistor](https://s.click.aliexpress.com/e/_oBV1Q1Z)**
-
-### If you're looking to add a battery:
-
-- **[3.7V Li-Ion Battery](https://s.click.aliexpress.com/e/_on04mQ7)**
-- **[JST PH 2.0 Connector](https://s.click.aliexpress.com/e/_ooSOhDd)**
-- **[TP4056 Charging Module (Micro-USB/Type-C)](https://s.click.aliexpress.com/e/_oCqORHE)**
-- **[Mini Slide Switch](https://s.click.aliexpress.com/e/_ooC8DXh)**
-
-### To screw the 3D printed case together you must have:
-
-- **M3x16 Screws** (2x)  
-- **M3 Nuts** (2x)  
-Get this M3 kit instead:
-- **[M3 screws&nuts kit](https://s.click.aliexpress.com/e/_oC24YXH)**
-
-
-
-## Antennas
-A frequently asked question is whether the antennas are needed and what the third antenna is for, here is the answer:
-Yes, you need at least both antennas for the nRF24's! Why? To have it working on a decent range!
-The average range with standard known chinese 2.4GHz antennas is about 20-30meters. Upgrading those antennas will help a lot with getting more range!
-
-2 antennas are for the HSPI and VSPI nRF24 modules!
-
-The 3rd antenna is plugged to the ESP32 chip itself, whether via IPEX or soldered onto its own antenna, if your ESP32 does not provide any option to add that one, it obviously won't be possible!
-What is the 3rd antenna used for? The third antenna connected to the ESP32 chip itself helps with reliable long-range interference. It ensures a better intermediate signal and stability when jamming!
-(The third antenna is your own decision and therefore optional!)
 
 
 
