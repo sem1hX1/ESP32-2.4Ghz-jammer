@@ -1,6 +1,7 @@
 <h1 align="center">Esp32 2.4Ghz jammer</h1>
 <div align="center">
-  <img src="galeri/jammer7.jpeg" alt="ESP32-BlueJammer">
+  
+  <img src="galeri/jammer7.jpeg" alt="ESP32-BlueJammer" width="40%">
   <h3 align="center">!!Jammer kulanımı YASADIŞIDIR!Sadece eğitim amaçlıdır!</h3>
 </div>
 
